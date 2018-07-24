@@ -84,7 +84,7 @@ th {
     padding-bottom: 6px;
 }
 td {
-    padding: 2px 0;
+    padding: 2px 4px 2px 0px;
 }
 tr:first-child td {
     padding-top: 7px;
@@ -101,9 +101,9 @@ a:active {
     color: #ccc;
 }
 
-th.link,
-td.link {
-    width: 360px;
+th.author,
+td.author {
+    width: 180px;
 }
 th.score,
 td.score {
