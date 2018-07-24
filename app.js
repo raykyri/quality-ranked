@@ -23,7 +23,7 @@ var Data = {
 };
 
 function extractDomain(url) {
-  var trimmedURL = url.replace(/^https?:\/\//, '');
+  var trimmedURL = url.replace(/^https?:\/\//, '').replace(/^www./, '');
   var pathIndex = trimmedURL.indexOf('/');
   if (pathIndex === -1) {
     return trimmedURL;
