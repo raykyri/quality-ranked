@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    padding: 0;
+    margin: 0;
+    padding-bottom: 40px;
+    position: relative;
+    width: 100%;
+    background: #fff;
+    color: #111;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 15px;
+    line-height: 1.375;
+    text-rendering: optimizeLegibility;
+}
+input[type="text"],
+textarea {
+    display: block;
+    margin-bottom: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    padding: 9px 12px 10px;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    outline: none;
+    box-shadow: none;
+}
+textarea {
+    padding: 11px 12px;
+}
+input[type="text"]:focus,
+textarea:focus {
+    border-color: #51bdf3;
+}
+::placeholder {
+    color: #aaa;
+    opacity: 1;
+}
+
+input[type="submit"],
+button[type="submit"] {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    padding: 7px 14px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    background: #aaa;
+    color: #111;
+    transition: 0.07s background ease-in-out;
+}
+input[type="submit"]:hover,
+button[type="submit"]:hover,
+input[type="submit"]:active,
+button[type="submit"]:active {
+    background: #bbb;
+}
+input[type="submit"].disabled,
+button[type="submit"].disabled {
+    opacity: 0.8;
+    pointer-events: none;
+}
+
+.container {
+    position: relative;
+    margin: 50px auto;
+    width: 720px;
+}
+.header {
+    margin-bottom: 40px;
+}
+
+table.rankings {
+    width: 100%;
+    table-layout: fixed;
+}
+th {
+    text-align: left;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 6px;
+}
+td {
+    padding: 2px 0;
+}
+tr:first-child td {
+    padding-top: 7px;
+}
+a {
+    color: #08c;
+    text-decoration: none;
+}
+a:hover,
+a:active {
+    text-decoration: underline;
+}
+.light {
+    color: #ccc;
+}
+
+th.link,
+td.link {
+    width: 360px;
+}
+th.score,
+td.score {
+    width: 92px;
+}
+th,
+td {
+    text-wrap: break-word;
+}
+td .light {
+    margin-left: 2px;
+}
