@@ -85,6 +85,7 @@ th {
 }
 td {
     padding: 2px 4px 2px 0px;
+    vertical-align: top;
 }
 tr:first-child td {
     padding-top: 7px;
