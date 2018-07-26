@@ -1,3 +1,6 @@
+/*
+ * GLOBALS
+ */
 * {
     box-sizing: border-box;
 }
@@ -65,18 +68,28 @@ button[type="submit"].disabled {
     pointer-events: none;
 }
 
+/*
+ * LAYOUT
+ */
 .container {
     position: relative;
     margin: 50px auto;
-    width: 720px;
+    max-width: 840px;
 }
 .header {
     margin-bottom: 40px;
 }
 
+/*
+ * RANKINGS
+ */
 table.rankings {
     width: 100%;
     table-layout: fixed;
+}
+th,
+td {
+    text-wrap: break-word;
 }
 th {
     text-align: left;
@@ -104,15 +117,24 @@ a:active {
 
 th.author,
 td.author {
-    width: 180px;
+    width: 200px;
 }
 th.score,
 td.score {
+    width: 76px;
+}
+th.tags,
+td.tags {
     width: 92px;
 }
-th,
-td {
-    text-wrap: break-word;
+.tag {
+    display: inline-block;
+    color: #fff;
+    font-size: 86%;
+    background: #999;
+    padding: 1px 5px;
+    margin: -1px 0;
+    border-radius: 3px;
 }
 td .light {
     margin-left: 2px;

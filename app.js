@@ -43,15 +43,23 @@ var Rankings = {
       ]);
     } else if (Data.rankings.list) {
       content = Data.rankings.list.map(function(item) {
+        var tags = item.tags.length > 0 ? item.tags.split(',') : [];
         return m('tr.ranking-row', [
           m('td.link', [
-            m('a', {href: item.link, target: "_blank"}, item.title),
+            m('a', {
+              href: item.link,
+              target: '_blank',
+              noreferrer: 'noreferrer',
+              noopener: 'noopener',
+            }, item.title),
             ' ',
             m('span.light', extractDomain(item.link))
           ]),
           m('td.author', item.author),
           m('td.score', item.score),
-          // m('td.desc', item.comment),
+          m('td.tags', tags.map(function(tag) {
+            return m('.tag', tag);
+          })),
         ])
       });
     } else {
@@ -63,7 +71,7 @@ var Rankings = {
           m('th.link', 'Title'),
           m('th.author', 'Author'),
           m('th.score', 'Score'),
-          // m('th.desc', 'Description'),
+          m('th.tags', 'Tags'),
         ]),
         m('tbody', content),
       ]),

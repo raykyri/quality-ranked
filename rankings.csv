@@ -1,13 +1,24 @@
-author,title,score,link
-Eugene Wei,Invisible Asymptotes,9.2,http://www.eugenewei.com/blog/2018/5/21/invisible-asymptotes
-Daniel Gross,How to Convince People,9.0,https://dcgross.com/how-to-convince-people/
-Nadia Eghbal,Notes,9.0,https://nadiaeghbal.com/notes/
-Lou Keep,The Meridian of Her Greatness,8.6,https://samzdat.com/2017/06/01/the-meridian-of-her-greatness
-Chip Morningstar,You can't tell people anything,8.2,http://habitatchronicles.com/2004/04/you-cant-tell-people-anything/
-Elvia Wilk,Is Ornamenting Solar Panels a Crime?,8.0,http://www.e-flux.com/architecture/positions/191258/is-ornamenting-solar-panels-a-crime
-Anna Khachiyan,The Realpolitik of Beverly Hills,8.0,http://www.annakhachiyan.com/blog/2018/3/21/the-realpolitik-of-beverly-hills
-Anna Khachiyan,Art Won’t Save Us,8.0,https://openspace.sfmoma.org/2018/03/art-wont-save-us
-Nadia Rodinskaya,Intellectual History in Brief,7.7,https://nadiarodinskaya.tumblr.com/post/144183028084/intellectual-history-in-brief
-Jessica Watson Miller,Crack open your identity,7.6,https://autotranslucence.wordpress.com/2018/05/21/crack-open-your-identity/
-Bernard Schiff,I was Jordan Peterson’s strongest supporter. Now I think he’s dangerous,7.0,https://www.thestar.com/opinion/2018/05/25/i-was-jordan-petersons-strongest-supporter-now-i-think-hes-dangerous.html
-Matthew Sweet,Near-Deathness,6.6,https://www.ribbonfarm.com/2018/06/21/near-deathness/
+author,title,score,link,tags
+Eugene Wei,Invisible Asymptotes,9.4,http://www.eugenewei.com/blog/2018/5/21/invisible-asymptotes,
+Robert Ochshorn,Notes on Intimacy,9.2,http://rmozone.com/snapshots/2016/03/notes-on-intimacy.html,
+Zero HP Lovecraft,The Gig Economy,9.0,https://zerohplovecraft.wordpress.com/2018/05/11/the-gig-economy-2/,fiction
+Daniel Gross,How to Convince People,9.0,https://dcgross.com/how-to-convince-people/,
+Nadia Eghbal,Notes,9.0,https://nadiaeghbal.com/notes/,
+Timothy Merton,Hyperobjects,8.8,http://massivelyinvisibleobjects.org/wp-content/uploads/2015/04/Hyperobjects.pdf,
+Lou Keep,The Meridian of Her Greatness,8.6,https://samzdat.com/2017/06/01/the-meridian-of-her-greatness,
+Robin Hanson,Toward Better Signals,8.6,http://www.overcomingbias.com/2018/01/toward-better-signals.html,
+Joe Edelman,HSC1: Social Environments & Human Values,8.4,https://medium.com/what-to-build/designing-for-meaningful-social-space-an-online-class-dad37439797f,
+Chip Morningstar,You can't tell people anything,8.2,http://habitatchronicles.com/2004/04/you-cant-tell-people-anything/,
+Elvia Wilk,Is Ornamenting Solar Panels a Crime?,8.0,http://www.e-flux.com/architecture/positions/191258/is-ornamenting-solar-panels-a-crime,theory
+Anna Khachiyan,The Realpolitik of Beverly Hills,8.0,http://www.annakhachiyan.com/blog/2018/3/21/the-realpolitik-of-beverly-hills,
+Anna Khachiyan,Art Won’t Save Us,8.0,https://openspace.sfmoma.org/2018/03/art-wont-save-us,
+Nadia Rodinskaya,Intellectual History in Brief,7.7,https://nadiarodinskaya.tumblr.com/post/144183028084/intellectual-history-in-brief,
+Ava Huang,Shock Velocity,7.5,http://avaorardor.com/post/172636598217/shock-velocity-i-status-anxiety-ill-start-with,
+Jessica Watson Miller,Crack open your identity,7.2,https://autotranslucence.wordpress.com/2018/05/21/crack-open-your-identity/,
+Aaron Swartz,Stanford: Day 5,7.0,http://www.aaronsw.com/weblog/001423,
+Bernard Schiff,I was Jordan Peterson’s strongest supporter. Now I think he’s dangerous,7.0,https://www.thestar.com/opinion/2018/05/25/i-was-jordan-petersons-strongest-supporter-now-i-think-hes-dangerous.html,
+Sarah Zhang,China Is Genetically Engineering Monkeys With Brain Disorders,6.4,https://www.theatlantic.com/science/archive/2018/06/china-is-genetically-engineering-monkeys-with-brain-disorders/561866/,
+Matthew Sweet,Near-Deathness,6.6,https://www.ribbonfarm.com/2018/06/21/near-deathness/,
+Tavi Gevinson,Editor’s Letter - January 2018: Utopia,6.2,http://www.rookiemag.com/2018/01/editors-letter-75/,
+Martha Henriques,What it takes to stand up to authority,6.0,http://www.bbc.com/future/story/20180709-our-ability-to-stand-up-to-authority-comes-down-to-the-brain,
+Venkatesh Rao,Make Your Own Rules,5.5,https://www.ribbonfarm.com/2018/02/15/make-your-own-rules/,
